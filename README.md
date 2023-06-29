@@ -1,2 +1,2 @@
 # js-color-flipper
-Created with CodeSandbox
+Color Flipper using HTML, JS, and CSS
