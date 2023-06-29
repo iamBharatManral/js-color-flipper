@@ -9,7 +9,7 @@ body {
   justify-content: center;
   height: 100vh;
   font-family: sans-serif;
-  background-color: red;
+  background-color: #DEAB55;
 }
 
 .flipper {
@@ -32,7 +32,7 @@ body {
   box-shadow: 0 0 2px 5px white;
 }
 span {
-  color: red;
+  color: #DEAB55;
 }
 button {
   background: transparent;
