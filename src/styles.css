@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: red;
+}
+
+.flipper {
+  display: flex;
+  flex-direction: column;
+}
+
+.flipper > * {
+  margin: 10px;
+}
+
+.bg {
+  padding: 10px 45px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  box-shadow: 0 0 2px 5px white;
+}
+span {
+  color: red;
+}
+button {
+  background: transparent;
+  align-self: center;
+  font-size: 13px;
+  padding: 7px;
+  letter-spacing: 3px;
+  border-radius: 4px;
+  border: 1px solid steelblue;
+  cursor: pointer;
+  box-shadow: 0 0 2px 2px white;
+}
+
+@media (max-width: 440px) {
+  .bg {
+    letter-spacing: normal;
+  }
+}
